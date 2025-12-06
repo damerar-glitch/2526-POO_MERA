@@ -10,4 +10,4 @@ def reproducir_sonido(animal):  #Creamos una funcion
     print(animal.hacer_sonido())
 
 reproducir_sonido(Gato())  # Llamos a la funcion e imprimimos
-reproducir_sonido(Pajaro())
+reproducir_sonido(Pajaro())  #fin
