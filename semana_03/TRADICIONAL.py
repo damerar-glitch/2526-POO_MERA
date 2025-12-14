@@ -69,5 +69,5 @@ def ejecutar_programa_tradicional():
         # Si no se ingresaron temperaturas, aviso al usuario.
         print("No se ingresaron temperaturas.")
 
-# Aquí llamaría a la función principal para ejecutar todo el programa.
+# Aquí llamaría a la función principal para ejecutar .
 ejecutar_programa_tradicional()
