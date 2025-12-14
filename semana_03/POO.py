@@ -89,5 +89,5 @@ def ejecutar_programa_poo():
     reporte_clima.mostrar_resultados()
 
 
-# Aquí llamo a la función principal para ejecutar todo el programa.
+# Aquí llamo a la función principal para ejecutar.
 ejecutar_programa_poo()
