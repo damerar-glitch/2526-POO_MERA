@@ -13,4 +13,4 @@ class Cuadrado(Figura): #Creamos la clase
         return self.lado * self.lado #Retornamos el valor
 
 mi_cuadrado = Cuadrado(4)  #Instanciamos la clase
-print(mi_cuadrado.calcular_area())  #Imprimimos
+print(mi_cuadrado.calcular_area())  #Imprimimos y fin

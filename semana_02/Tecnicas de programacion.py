@@ -99,4 +99,4 @@ personaje_2 = Mago("Vanessa", 5, 15, 4, 100, 3)
 personaje_1.atributos()
 personaje_2.atributos()
 
-combate(personaje_1, personaje_2)
+combate(personaje_1, personaje_2) #y fin

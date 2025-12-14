@@ -7,4 +7,4 @@ class Perro(Animal):  # Hereda de Animal
         return "Guau guau"
 
 mi_perro = Perro()
-print(mi_perro.hacer_sonido()) #Imprimimos
+print(mi_perro.hacer_sonido()) #Imprimimos y fin

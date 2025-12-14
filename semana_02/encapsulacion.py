@@ -7,4 +7,4 @@ class Persona:  #Creamos la clase
         return f"Nombre: {self.__nombre}, Edad: {self.__edad}"
 
 mi_persona = Persona("Juan", 30) #Instanciamos la clase
-print(mi_persona.obtener_info())  #Imprimimos
+print(mi_persona.obtener_info())  #Imprimimos y fin
