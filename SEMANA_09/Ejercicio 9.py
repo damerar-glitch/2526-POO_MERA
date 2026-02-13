@@ -36,7 +36,7 @@ class Producto:
     def set_precio(self, precio):
         self.precio = precio
 
-    # Método para representar el objeto Producto como una cadena de texto
+    # Metodo para representar el objeto Producto como una cadena de texto
     def __str__(self):
         return f'ID: {self.id}, Nombre: {self.nombre}, Cantidad: {self.cantidad}, Precio: {self.precio}'
 
@@ -47,7 +47,7 @@ class Inventario:
     def __init__(self):
         self.productos = []  # Lista para almacenar los productos en el inventario
 
-    # Método para añadir un nuevo producto al inventario
+    # Metodo para añadir un nuevo producto al inventario
     def añadir_producto(self, producto):
         # Verificar si el ID del producto es único
         for p in self.productos:
@@ -57,7 +57,7 @@ class Inventario:
         self.productos.append(producto)  # Añadir el producto a la lista
         print("Producto añadido exitosamente.")
 
-    # Método para eliminar un producto del inventario por su ID
+    # Metodo para eliminar un producto del inventario por su ID
     def eliminar_producto(self, id):
         for p in self.productos:
             if p.get_id() == id:
@@ -66,7 +66,7 @@ class Inventario:
                 return
         print("Error: Producto no encontrado.")  # Si no se encuentra el producto
 
-    # Método para actualizar la cantidad o el precio de un producto por su ID
+    # Metodo para actualizar la cantidad o el precio de un producto por su ID
     def actualizar_producto(self, id, nueva_cantidad=None, nuevo_precio=None):
         for p in self.productos:
             if p.get_id() == id:
@@ -78,7 +78,7 @@ class Inventario:
                 return
         print("Error: Producto no encontrado.")  # Si no se encuentra el producto
 
-    # Método para buscar productos por su nombre (o parte del nombre)
+    # Metodo para buscar productos por su nombre (o parte del nombre)
     def buscar_producto(self, nombre):
         resultados = [p for p in self.productos if nombre.lower() in p.get_nombre().lower()]
         if resultados:
@@ -87,7 +87,7 @@ class Inventario:
         else:
             print("No se encontraron productos con ese nombre.")  # Si no se encuentra ningún producto
 
-    # Método para mostrar todos los productos en el inventario
+    # Metodo para mostrar todos los productos en el inventario
     def mostrar_productos(self):
         if self.productos:
             for p in self.productos:
