@@ -1,0 +1,14 @@
+[
+    {
+        "id_item": "1",
+        "nombre": "banano",
+        "cantidad": 3,
+        "precio": 0.5
+    },
+    {
+        "id_item": "2",
+        "nombre": "pollo",
+        "cantidad": 2,
+        "precio": 5.0
+    }
+]
